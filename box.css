@@ -1,0 +1,64 @@
+/* Main container */
+#div1 {
+    background-color: black;
+    height: 800px; /* Increased height to accommodate vertical layout */
+    width: 500px;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* White container */
+#div2 {
+    background-color: white;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Brown container - will hold the vertical stack */
+#div3 {
+    background-color: brown;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+
+}
+
+/* Rotated boxes - now in vertical sequence */
+#div4,  #div6 {
+    width: 300px;
+    height: 400px;
+    transform: rotate(180deg);
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+#div4 {
+    background-color: #efb762;
+    border-radius:10px;
+}
+
+#div5 {
+    background-color: #8f0401;
+    width: 350px;
+    height: 400px;
+    transform: rotate(180deg);
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-radius:10px;
+}
+
+#div6 {
+    background-color: #b20403;
+    border-top-left-radius: 20px;
+}
